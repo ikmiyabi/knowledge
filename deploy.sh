@@ -4,7 +4,6 @@ echo "deploy start"
 
 yarn build &&\
 git checkout deploy &&\
-cp .gitignore.deploy .gitignore &&\
 rm -rf docs &&\
 mv dist/ docs/ &&\
 git add -A &&\
