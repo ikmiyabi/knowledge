@@ -115,6 +115,7 @@ module.exports = {
   description: '個人用開発ナレッジ',
   title: 'Knowledge',
   serviceWorker: true,
+  dest: 'dist/',
   toggleSidebar: true,
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
