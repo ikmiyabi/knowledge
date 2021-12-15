@@ -7,8 +7,7 @@ git checkout deploy
 rm -rf docs
 mv dist/ docs/
 git add .
-git commit -m deploy
+git commit -m "[ci skip] deploy"
 git push origin deploy
-git checkout main
 
 echo "deploy end"
