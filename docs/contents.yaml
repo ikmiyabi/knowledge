@@ -12,11 +12,11 @@
     javascript/: JavaScript
     vue/: Vue.js
 /mobile/:
-  title: Infra
+  title: Mobile
   children:
     swift/: Swift
 /infra/:
-  title: Mobile
+  title: Infra
   children:
     aws/: AWS
     docker/: Docker

@@ -128,7 +128,7 @@ module.exports = {
   themeConfig: {
     toggleSidebar: true,
     lang: 'ja',
-    repo: 'weseek/growi-docs',
+    repo: 'ikmiyabi/knowledge',
     logo: '/logo.png',
     logoDark: '/logo.png',
     docsDir: 'docs',
