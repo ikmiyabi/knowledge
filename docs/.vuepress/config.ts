@@ -1,5 +1,6 @@
 import fs from 'fs'
 import yaml from 'js-yaml'
+import pathUtil from 'path'
 
 // READMEファイル名
 const README = 'README.md'
@@ -33,7 +34,7 @@ const markdownContents = dir => {
     // READMEはchildには追加しない
     const isReadme = (fileName == README)
     if (isFile(dir + fileName) && REGEXP.test(fileName) && !isReadme) {
-      return dir + fileName
+      return dir + pathUtil.basename(fileName)
     }
   }).filter(v => v)
 }
