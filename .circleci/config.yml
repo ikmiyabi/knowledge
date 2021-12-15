@@ -18,7 +18,17 @@ jobs:
           key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
           command: |
-            if [ "${CIRCLE_BRANCH}" = "main" ]; then
-              chmod +x deploy.sh
-              ./deploy.sh
+            if [ "${CIRCLE_BRANCH}" != "main" ]; then
+              circleci step halt
             fi
+      - run: echo "deploy start"
+      - run: yarn build
+      - run: git config --global user.email "miyabi1452@yahoo.co.jp"
+      - run: git config --global user.name "circleci"
+      - run: git checkout deploy
+      - run: rm -rf docs
+      - run: mv dist/ docs/
+      - run: git add -A
+      - run: git commit -m "[ci skip] deploy"
+      - run: git push -f origin deploy
+      - run: echo "deploy end"
