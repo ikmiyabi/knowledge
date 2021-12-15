@@ -1,0 +1,34 @@
+---
+/backend/:
+  title: Backend
+  children:
+    java/: Java
+    ruby/: Ruby
+    c-sharp/: C#
+    php/: PHP
+/frontend/:
+  title: Frontend
+  children:
+    javascript/: JavaScript
+    vue/: Vue.js
+/mobile/:
+  title: Infra
+  children:
+    swift/: Swift
+/infra/:
+  title: Mobile
+  children:
+    aws/: AWS
+    docker/: Docker
+/middleware/:
+  title: ミドルウェア
+  children:
+    embulk/: Embulk
+    git/: Git
+    database/: データベース
+/other/:
+  title: その他
+  children:
+    linux/: Linux
+    shellscript/: shellscript
+    other/: Other
