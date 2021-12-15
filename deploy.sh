@@ -2,12 +2,14 @@
 
 echo "deploy start"
 
-yarn build
+yarn build &&\
+
+mv .gitignore.deploy .gitignore
 git checkout deploy
 rm -rf docs
 mv dist/ docs/
-git add .
+git add -A
 git commit -m "[ci skip] deploy"
-git push origin deploy
+git push -f origin deploy &&\
 
 echo "deploy end"
