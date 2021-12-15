@@ -116,6 +116,7 @@ module.exports = {
   title: 'Knowledge',
   serviceWorker: true,
   dest: 'dist/',
+  base: '/knowledge/',
   toggleSidebar: true,
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
