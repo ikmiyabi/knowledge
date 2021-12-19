@@ -19,16 +19,17 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#AFA2EB' }],
   ],
   plugins: [
-    ['@vuepress/plugin-search']
+    ['@vuepress/plugin-search'],
+    ['@vuepress/pwa', { skipWaiting: true }],
   ],
   themeConfig: {
     repo: 'ikmiyabi/knowledge',
+    repoLabel: '',
     logo: '/images/logo.png',
     docsDir: 'docs',
     lastUpdated: true,
     lastUpdatedText: '最終更新',
     contributors: false,
-    toggleSidebar: 'toggle sidebar',
     navbar: getNavbarContents(),
     sidebar: getSidebarContents()
   }
