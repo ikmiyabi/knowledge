@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /home.png
+heroImage: /images/home.png
 heroText: 個人用ナレッジ
 tagline:
 ---
