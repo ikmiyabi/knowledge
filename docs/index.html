@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="VuePress 2.0.0-beta.27">
     <link rel="icon" type="image/png" href="/knowledge/favicon.png"><link rel="apple-touch-icon" href="/knowledge/apple-touch-icon.png"><title>Knowledge</title><meta name="description" content="個人用開発ナレッジ">
-    <link rel="preload" href="/knowledge/assets/js/runtime~app.54498e50.js" as="script"><link rel="preload" href="/knowledge/assets/css/styles.74f3fa47.css" as="style"><link rel="preload" href="/knowledge/assets/js/8567.8b3dbca7.js" as="script"><link rel="preload" href="/knowledge/assets/js/app.42c874bf.js" as="script">
+    <link rel="preload" href="/knowledge/assets/js/runtime~app.52edf279.js" as="script"><link rel="preload" href="/knowledge/assets/css/styles.74f3fa47.css" as="style"><link rel="preload" href="/knowledge/assets/js/8567.8b3dbca7.js" as="script"><link rel="preload" href="/knowledge/assets/js/app.1bb72fe6.js" as="script">
     <link rel="stylesheet" href="/knowledge/assets/css/styles.74f3fa47.css">
   </head>
   <body>
@@ -22,18 +22,22 @@
 これはチップです。
 :::
 
+::: tip 役立つ情報
+tipの後ろに入力した文字がタイトルになります（デフォルトTIP）
+:::
+
 ::: warning
 これは警告です。
 :::
 
-::: danger 注意するべき点
+::: danger
 これは危険な警告です。
 :::
 
-::: details 詳細をクリック
-これは危険な警告です。
+::: details 詳細を表示
+detailsでアコーディオンを作成できます。
 :::
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>表示</p><div class="custom-container tip"><p class="custom-container-title">TIP</p><p>これはチップです。</p></div><div class="custom-container tip"><p class="custom-container-title">役立つ情報</p><p>tipの後ろに入力した文字がタイトルになります（デフォルトTIP）</p></div><div class="custom-container warning"><p class="custom-container-title">WARNING</p><p>これは警告です。</p></div><div class="custom-container danger"><p class="custom-container-title">DANGER</p><p>これは危険です。</p></div><details class="custom-container details"><summary>詳細を表示</summary><p>detailsでアコーディオンを作成できます。</p></details><h3 id="行のハイライト付きシンタックスハイライト" tabindex="-1"><a class="header-anchor" href="#行のハイライト付きシンタックスハイライト" aria-hidden="true">#</a> 行のハイライト付きシンタックスハイライト</h3><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">&#39;vue&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><p>表示</p><div class="custom-container tip"><p class="custom-container-title">TIP</p><p>これはチップです。</p></div><div class="custom-container tip"><p class="custom-container-title">役立つ情報</p><p>tipの後ろに入力した文字がタイトルになります（デフォルトTIP）</p></div><div class="custom-container warning"><p class="custom-container-title">WARNING</p><p>これは警告です。</p></div><div class="custom-container danger"><p class="custom-container-title">DANGER</p><p>これは危険な警告です。</p></div><details class="custom-container details"><summary>詳細を表示</summary><p>detailsでアコーディオンを作成できます。</p></details><h3 id="行のハイライト付きシンタックスハイライト" tabindex="-1"><a class="header-anchor" href="#行のハイライト付きシンタックスハイライト" aria-hidden="true">#</a> 行のハイライト付きシンタックスハイライト</h3><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">&#39;vue&#39;</span>
 <span class="token keyword">import</span> Component <span class="token keyword">from</span> <span class="token string">&#39;vue-class-component&#39;</span>
 
 <span class="token decorator"><span class="token at operator">@</span><span class="token function">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -48,6 +52,6 @@
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><!--]--></div><div class="code-group-item" aria-selected="false"><!--[--><div class="language-ruby ext-rb line-numbers-mode"><pre class="language-ruby"><code>puts <span class="token string">&quot;Hello World&quot;</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><!--]--></div><div class="code-group-item" aria-selected="false"><!--[--><div class="language-python ext-py line-numbers-mode"><pre class="language-python"><code><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;HelloWorld&quot;</span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><!--]--></div><!--]--></div><!--]--></div><!----></main><!--]--></div><!----><!--]--></div>
-    <script src="/knowledge/assets/js/runtime~app.54498e50.js" defer></script><script src="/knowledge/assets/js/8567.8b3dbca7.js" defer></script><script src="/knowledge/assets/js/app.42c874bf.js" defer></script>
+    <script src="/knowledge/assets/js/runtime~app.52edf279.js" defer></script><script src="/knowledge/assets/js/8567.8b3dbca7.js" defer></script><script src="/knowledge/assets/js/app.1bb72fe6.js" defer></script>
   </body>
 </html>
