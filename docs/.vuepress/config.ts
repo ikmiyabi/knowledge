@@ -6,11 +6,11 @@ module.exports = {
   title: 'Knowledge',
   serviceWorker: true,
   dest: 'dist/',
-  base: '/knowledge/',
+  base: '/',
   toggleSidebar: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/knowledge/favicon.png' }],
-    ['link', { rel: 'apple-touch-icon', href: `/knowledge/apple-touch-icon.png` }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'apple-touch-icon', href: `/apple-touch-icon.png` }],
   ],
   plugins: [
     ['@vuepress/plugin-search']
