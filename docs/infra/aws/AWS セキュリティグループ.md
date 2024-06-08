@@ -36,7 +36,7 @@
    - 専用ソフトウェアがクライアント側に必要になる場合がある
 
 
-![ファイアウォール](firewall.png)
+![ファイアウォール](images/firewall.png)
 
 画像引用元: https://www.rworks.jp/system/system-column/sys-entry/21277/
 
@@ -72,7 +72,7 @@
 DDos攻撃とは、ネットワークのトラフィック（通信量）を増大させ、通信を処理しているコンピューティングリソースに負荷をかけることによってサービスを利用困難にしたり、ダウンさせたりする攻撃のこと。
 複数のコンピュータを乗っ取り踏み台にして攻撃するのが特徴。
 
-![DDoS Attack](ddos.png)
+![DDoS Attack](images/ddos.png)
 
 画像引用元: https://www.ntt.com/business/services/network/internet-connect/ocn-business/bocn/knowledge/archive_18.html
 

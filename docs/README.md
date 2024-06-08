@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /home.png
-heroText: 個人用ナレッジ
+heroImage: /images/home.png
+heroText:
 tagline:
 ---
 
@@ -53,16 +53,20 @@ Markdown
 これはチップです。
 :::
 
+::: tip 役立つ情報
+tipの後ろに入力した文字がタイトルになります（デフォルトTIP）
+:::
+
 ::: warning
 これは警告です。
 :::
 
-::: danger 注意するべき点
+::: danger
 これは危険な警告です。
 :::
 
-::: details 詳細をクリック
-これは危険な警告です。
+::: details 詳細を表示
+detailsでアコーディオンを作成できます。
 :::
 ```
 
@@ -81,7 +85,7 @@ tipの後ろに入力した文字がタイトルになります（デフォル�
 :::
 
 ::: danger
-これは危険です。
+これは危険な警告です。
 :::
 
 ::: details 詳細を表示

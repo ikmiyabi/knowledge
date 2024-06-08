@@ -5,7 +5,7 @@
 - 大量に投入(bulk insert)されたデータを細かく圧縮し、並列で取り込むこと(bulk load)ができる
 - Fluentdを制作しているTreasure Dataが開発
 
-![embulk](embulk.png)
+![embulk](images/embulk.png)
 
 画像引用元： [Embulk, an open-source plugin-based parallel bulk data loader](https://www.slideshare.net/frsyuki/embuk-making-data-integration-works-relaxed?ref=https://www.embulk.org/)
 
@@ -17,7 +17,6 @@
   - 全て成功しなかったら実行前の状態に巻き戻る
   - 失敗したタスクだけを後からやり直すレジューム機能
 - guess機能
-  - 入力データを自動で推定し、設定ファイルを生成
 - オープンソース
 - 本体とは別にプラグインを追加することで動作する
   - プラグインはruby, javaで書かれていて、実装自体も比較的容易
