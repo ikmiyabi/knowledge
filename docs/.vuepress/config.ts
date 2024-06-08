@@ -7,6 +7,7 @@ module.exports = {
   description: '個人用開発ナレッジ',
   serviceWorker: true,
   dest: 'dist/',
+  public: 'docs/',
   toggleSidebar: true,
   head: [
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicon_16x16.png' }],
